@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(90, 21, 145);
+}
+
+header > div h3 {
+  font-size: 17px;
+}
+
+button {
+  font-size: 17px;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20vh;
+  color: #101010;
+}
+
+button:hover {
+  background-color: #101010;
+  color: #ccc;
+}
+
+label {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 15vh;
+  letter-spacing: 10px;
+}

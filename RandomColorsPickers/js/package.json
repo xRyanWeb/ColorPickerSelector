@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.10.2"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "type": "module",
+  "name": "randomcolorspickers",
+  "version": "1.0.0",
+  "main": "myAppElectron.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
